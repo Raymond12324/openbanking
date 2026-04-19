@@ -2,7 +2,7 @@
 
 Prototipo de aplicación de banca móvil multi-banco (BHD, Popular, Banreservas) construido con React + TypeScript + Tailwind CSS. Funciona como mock front-end: los usuarios, cuentas y transacciones viven en memoria.
 
-## 🚀 Cómo usar la app
+## Cómo usar la app
 
 1. Abre la app en el navegador (móvil o desktop, es totalmente responsive).
 2. Inicia sesión con cualquiera de los **usuarios demo** listados abajo.
@@ -18,9 +18,9 @@ Prototipo de aplicación de banca móvil multi-banco (BHD, Popular, Banreservas)
    - Confirma. El saldo se actualiza en tiempo real para ambos usuarios y se generan dos movimientos (uno de salida y uno de entrada).
 5. Para **cerrar sesión**, abre el menú lateral y pulsa "Cerrar sesión".
 
-> 💡 Todos los datos son **simulados y en memoria**: si recargas la página vuelven al estado inicial.
+> Todos los datos son **simulados y en memoria**: si recargas la página vuelven al estado inicial.
 
-## 👥 Usuarios demo
+## Usuarios demo
 
 La contraseña de **todos** los usuarios es `1234`.
 
@@ -40,18 +40,18 @@ La contraseña de **todos** los usuarios es `1234`.
 
 > Puedes transferir entre cuentas de un mismo usuario o entre usuarios distintos para probar el flujo completo.
 
-## 📝 Registro (flujo demo)
+## Registro (flujo demo)
 
 El flujo de registro (`Crear cuenta` → OTP → Datos personales → Éxito) es **solo visual**: no crea un usuario nuevo persistente. Para entrar a la app usa siempre uno de los usuarios demo de arriba.
 
-## 🛠️ Stack técnico
+## Stack técnico
 
 - **React 18** + **TypeScript** + **Vite**
 - **Tailwind CSS** con tokens semánticos HSL (`src/index.css`)
 - **shadcn/ui** para primitivas accesibles
 - Estado en memoria (sin backend) — toda la lógica vive en `src/pages/Index.tsx` y `src/openbank/`
 
-## 📂 Estructura
+## Estructura
 
 ```
 src/
